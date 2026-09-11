@@ -19,151 +19,143 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - id: 23.05
+          - id: "24.10"
             arch: aarch64_cortex-a53
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm27xx/bcm2710
-            sdk_name: -sdk-23.05.5-bcm27xx-bcm2710_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/bcm27xx/bcm2710
+            sdk_name: -sdk-24.10.8-bcm27xx-bcm2710_
+          - id: "24.10"
             arch: aarch64_cortex-a72
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/mvebu/cortexa72
-            sdk_name: -sdk-23.05.5-mvebu-cortexa72_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/mvebu/cortexa72
+            sdk_name: -sdk-24.10.8-mvebu-cortexa72_
+          - id: "24.10"
             arch: aarch64_generic
-            sdk_url_path: http://downloads.openwrt.org/releases/23.05.5/targets/layerscape/armv8_64b
-            sdk_name: -sdk-23.05.5-layerscape-armv8_64b_
-          - id: 23.05
+            sdk_url_path: http://downloads.openwrt.org/releases/24.10.8/targets/layerscape/armv8_64b
+            sdk_name: -sdk-24.10.8-layerscape-armv8_64b_
+          - id: "24.10"
             arch: arm_arm1176jzf-s_vfp
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm27xx/bcm2708
-            sdk_name: -sdk-23.05.5-bcm27xx-bcm2708_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/bcm27xx/bcm2708
+            sdk_name: -sdk-24.10.8-bcm27xx-bcm2708_
+          - id: "24.10"
             arch: arm_cortex-a15_neon-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/ipq806x/generic
-            sdk_name: -sdk-23.05.5-ipq806x-generic_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/ipq806x/generic
+            sdk_name: -sdk-24.10.8-ipq806x-generic_
+          - id: "24.10"
             arch: arm_cortex-a5-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/at91/sama5
-            sdk_name: -sdk-23.05.5-at91-sama5_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/at91/sama5
+            sdk_name: -sdk-24.10.8-at91-sama5_
+          - id: "24.10"
             arch: arm_cortex-a7_neon-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm27xx/bcm2709
-            sdk_name: -sdk-23.05.5-bcm27xx-bcm2709_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/bcm27xx/bcm2709
+            sdk_name: -sdk-24.10.8-bcm27xx-bcm2709_
+          - id: "24.10"
             arch: arm_cortex-a8_vfpv3
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/sunxi/cortexa8
-            sdk_name: -sdk-23.05.5-sunxi-cortexa8_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/sunxi/cortexa8
+            sdk_name: -sdk-24.10.8-sunxi-cortexa8_
+          - id: "24.10"
             arch: arm_cortex-a9
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm53xx/generic
-            sdk_name: -sdk-23.05.5-bcm53xx-generic_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/bcm53xx/generic
+            sdk_name: -sdk-24.10.8-bcm53xx-generic_
+          - id: "24.10"
             arch: arm_cortex-a9_vfpv3-d16
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/mvebu/cortexa9
-            sdk_name: -sdk-23.05.5-mvebu-cortexa9_
-          - id: 23.05
-            arch: arm_mpcore
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/oxnas/ox820
-            sdk_name: -sdk-23.05.5-oxnas-ox820_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/mvebu/cortexa9
+            sdk_name: -sdk-24.10.8-mvebu-cortexa9_
+          - id: "24.10"
             arch: i386_pentium
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/x86/legacy
-            sdk_name: -sdk-23.05.5-x86-legacy_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/x86/legacy
+            sdk_name: -sdk-24.10.8-x86-legacy_
+          - id: "24.10"
             arch: i386_pentium4
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/x86/generic
-            sdk_name: -sdk-23.05.5-x86-generic_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/x86/generic
+            sdk_name: -sdk-24.10.8-x86-generic_
+          - id: "24.10"
             arch: mipsel_24kc
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/ramips/mt7620
-            sdk_name: -sdk-23.05.5-ramips-mt7620_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/ramips/mt7620
+            sdk_name: -sdk-24.10.8-ramips-mt7620_
+          - id: "24.10"
             arch: mipsel_74kc
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm47xx/mips74k
-            sdk_name: -sdk-23.05.5-bcm47xx-mips74k_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/bcm47xx/mips74k
+            sdk_name: -sdk-24.10.8-bcm47xx-mips74k_
+          - id: "24.10"
             arch: mipsel_mips32
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm47xx/generic
-            sdk_name: -sdk-23.05.5-bcm47xx-generic_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/bcm47xx/generic
+            sdk_name: -sdk-24.10.8-bcm47xx-generic_
+          - id: "24.10"
             arch: mips_24kc
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/ath79/generic
-            sdk_name: -sdk-23.05.5-ath79-generic_
-          - id: 23.05
-            arch: mips_mips32
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/bcm63xx/generic
-            sdk_name: -sdk-23.05.5-bcm63xx-generic_
-          - id: 23.05
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/ath79/generic
+            sdk_name: -sdk-24.10.8-ath79-generic_
+          - id: "24.10"
             arch: x86_64
-            sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/x86/64
-            sdk_name: -sdk-23.05.5-x86-64_
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.8/targets/x86/64
+            sdk_name: -sdk-24.10.8-x86-64_
 
           - id: 25.12
             arch: aarch64_cortex-a53
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2710
-            sdk_name: -sdk-25.12.4-bcm27xx-bcm2710_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/bcm27xx/bcm2710
+            sdk_name: -sdk-25.12.5-bcm27xx-bcm2710_
           - id: 25.12
             arch: aarch64_cortex-a72
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/mvebu/cortexa72
-            sdk_name: -sdk-25.12.4-mvebu-cortexa72_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/mvebu/cortexa72
+            sdk_name: -sdk-25.12.5-mvebu-cortexa72_
           - id: 25.12
             arch: aarch64_generic
-            sdk_url_path: http://downloads.openwrt.org/releases/25.12.4/targets/layerscape/armv8_64b
-            sdk_name: -sdk-25.12.4-layerscape-armv8_64b_
+            sdk_url_path: http://downloads.openwrt.org/releases/25.12.5/targets/layerscape/armv8_64b
+            sdk_name: -sdk-25.12.5-layerscape-armv8_64b_
           - id: 25.12
             arch: arm_arm1176jzf-s_vfp
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2708
-            sdk_name: -sdk-25.12.4-bcm27xx-bcm2708_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/bcm27xx/bcm2708
+            sdk_name: -sdk-25.12.5-bcm27xx-bcm2708_
           - id: 25.12
             arch: arm_cortex-a15_neon-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/ipq806x/generic
-            sdk_name: -sdk-25.12.4-ipq806x-generic_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/ipq806x/generic
+            sdk_name: -sdk-25.12.5-ipq806x-generic_
           - id: 25.12
             arch: arm_cortex-a5-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/at91/sama5
-            sdk_name: -sdk-25.12.4-at91-sama5_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/at91/sama5
+            sdk_name: -sdk-25.12.5-at91-sama5_
           - id: 25.12
             arch: arm_cortex-a7_neon-vfpv4
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/bcm27xx/bcm2709
-            sdk_name: -sdk-25.12.4-bcm27xx-bcm2709_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/bcm27xx/bcm2709
+            sdk_name: -sdk-25.12.5-bcm27xx-bcm2709_
           - id: 25.12
             arch: arm_cortex-a8_vfpv3
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/sunxi/cortexa8
-            sdk_name: -sdk-25.12.4-sunxi-cortexa8_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/sunxi/cortexa8
+            sdk_name: -sdk-25.12.5-sunxi-cortexa8_
           - id: 25.12
             arch: arm_cortex-a9
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/bcm53xx/generic
-            sdk_name: -sdk-25.12.4-bcm53xx-generic_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/bcm53xx/generic
+            sdk_name: -sdk-25.12.5-bcm53xx-generic_
           - id: 25.12
             arch: arm_cortex-a9_vfpv3-d16
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/mvebu/cortexa9
-            sdk_name: -sdk-25.12.4-mvebu-cortexa9_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/mvebu/cortexa9
+            sdk_name: -sdk-25.12.5-mvebu-cortexa9_
           - id: 25.12
             arch: i386_pentium
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/x86/legacy
-            sdk_name: -sdk-25.12.4-x86-legacy_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/x86/legacy
+            sdk_name: -sdk-25.12.5-x86-legacy_
           - id: 25.12
             arch: i386_pentium4
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/x86/generic
-            sdk_name: -sdk-25.12.4-x86-generic_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/x86/generic
+            sdk_name: -sdk-25.12.5-x86-generic_
           - id: 25.12
             arch: mipsel_24kc
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/ramips/mt7620
-            sdk_name: -sdk-25.12.4-ramips-mt7620_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/ramips/mt7620
+            sdk_name: -sdk-25.12.5-ramips-mt7620_
           - id: 25.12
             arch: mipsel_74kc
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/bcm47xx/mips74k
-            sdk_name: -sdk-25.12.4-bcm47xx-mips74k_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/bcm47xx/mips74k
+            sdk_name: -sdk-25.12.5-bcm47xx-mips74k_
           - id: 25.12
             arch: mipsel_mips32
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/bcm47xx/generic
-            sdk_name: -sdk-25.12.4-bcm47xx-generic_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/bcm47xx/generic
+            sdk_name: -sdk-25.12.5-bcm47xx-generic_
           - id: 25.12
             arch: mips_24kc
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/ath79/generic
-            sdk_name: -sdk-25.12.4-ath79-generic_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/ath79/generic
+            sdk_name: -sdk-25.12.5-ath79-generic_
           - id: 25.12
             arch: x86_64
-            sdk_url_path: https://downloads.openwrt.org/releases/25.12.4/targets/x86/64
-            sdk_name: -sdk-25.12.4-x86-64_
+            sdk_url_path: https://downloads.openwrt.org/releases/25.12.5/targets/x86/64
+            sdk_name: -sdk-25.12.5-x86-64_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
@@ -187,11 +179,9 @@ jobs:
           key: openwrt-${{ matrix.arch }}-${{ matrix.id }}-${{ env.PACKAGE_NAME }}-${{ steps.cache_key.outputs.timestamp }}
           restore-keys: |
             openwrt-${{ matrix.arch }}-${{ matrix.id }}-${{ env.PACKAGE_NAME }}-
-      - name: Update Dependencies
+      - name: Dependencies
         run: |
           DEBIAN_FRONTEND=noninteractive sudo apt-get update
-      - name: Install Dependencies
-        run: |
           DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ccache gettext libncurses5-dev xsltproc
       - name: Create Directories
         run: |
